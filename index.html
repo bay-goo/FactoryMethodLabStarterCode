@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content=""IE=edge">
+        <meta name="vieport" content="width=device-width, initial-scale=1.0">
+        <title>temp</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body> 
+        <div class="water_temp">
+        <div class="inner">
+            <script>
+                var images = ["https://www.blacksabbath.com/templates/default/images/mobile/logo.png",  
+                "https://toppng.com/uploads/preview/motorhead-logo-motorhead-vector-115629670949tnss2k3lr.png"];
+                var i = 0;
+                var renew = setInterval(function(){
+                    
+                    document.getElementById("tempapp").src = images[i];
+                    i++;
+
+                }, 10000);
+
+            </script>
+            <a href="https://waterdata.usgs.gov/monitoring-location/14319500/#parameterCode=00010F&period=P7D" 
+            target="_blank" rel="noopener noreferrer">
+            <img name="tempapp" loading="lazy" class="aligncenter wp-image-10320 size-medium" 
+            src="http://541radio.com/wp-content/uploads/2021/04/DC-Water-temp-Cold.jpg-261x300.jpeg" 
+            alt="" width="261" height="300" 
+            srcset="https://541radio.com/wp-content/uploads/2021/04/DC-Water-temp-Cold.jpg-261x300.jpeg 261w, 
+            https://541radio.com/wp-content/uploads/2021/04/DC-Water-temp-Cold.jpg-889x1024.jpeg 889w, 
+            https://541radio.com/wp-content/uploads/2021/04/DC-Water-temp-Cold.jpg-768x884.jpeg 768w, 
+            https://541radio.com/wp-content/uploads/2021/04/DC-Water-temp-Cold.jpg.jpeg 938w" 
+            sizes="(max-width: 261px) 100vw, 261px">
+        </a>
+        </div>
+    </div> </body>
+</html>
+
+
