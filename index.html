@@ -6,21 +6,6 @@
         <meta name="vieport" content="width=device-width, initial-scale=1.0">
         <title>temp</title>
         <link rel="stylesheet" href="main.css">
+        <script type = "text/javascript" src="app.js"></script>
     </head>
-    <body> 
-        <img src="mheadlogo.png" id="pic">
-     <script>
-         var images = ["acdclogo.png", "bslogo.png", "metlogo.png", "mheadlogo.png"];
-         var i = 0;
-         var renew = setInterval(function(){
-             if(images.length == i) {
-                 i = 0;     
-             }
-             else {
-                 document.getElementById("pic").src = images[i];
-                 i++;
-             }
-         }, 10000);
-     </script>
-    </body>
 </html>
