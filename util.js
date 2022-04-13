@@ -20,4 +20,4 @@ let checkTemp = async function checkTemp() {
   });
 }
 
-setInterval(checkTemp(), 5000);
+setInterval(checkTemp(), 50000);
